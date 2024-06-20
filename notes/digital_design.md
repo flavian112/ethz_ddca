@@ -10,4 +10,4 @@
 
 # Flip-Flops
 
-![Flip-Flops](./resources/flip_flops.jpg)
+![Flip-Flops](./resources/flipflops.jpg)
