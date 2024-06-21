@@ -2,11 +2,25 @@
 
 ## Boolean Logic
 
+### Laws
+
+![Boolean Laws](./resources/boolean_laws.jpg)
+
 ### Karnaugh Maps (KVD)
 
 ![Karnaugh Maps](./resources/karnaugh.jpg)
 
-## Basic Digital Elements
+## Transistors
+
+### CMOS
+
+![CMOS](./resources/cmos.jpg)
+
+### Logic Level Noise Margins
+
+![Logic Level Noise Margins](./resources/logic_level_noise_margins.jpg)
+
+## Basic Digital Circuits
 
 ### Logic Gates
 
@@ -19,8 +33,6 @@
 ### Flip-Flops
 
 ![Flip-Flops](./resources/flipflops.jpg)
-
-## Basic Circuit Elements
 
 ### Multiplexers and Demultiplexers
 
