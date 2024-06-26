@@ -1,43 +1,41 @@
 # Digital Design
 
+## Managing Complexity
+![Complexity](./resources/complexity.jpg)
+
+## Binary Numbers
+![Binary Numbers](./resources/binary_numbers.jpg)
+![Floating Point](./resources/floating_point.jpg)
+
 ## Boolean Logic
-
-### Laws
-
-![Boolean Laws](./resources/boolean_laws.jpg)
-
-### Karnaugh Maps (KVD)
-
-![Karnaugh Maps](./resources/karnaugh.jpg)
+![Boolean Logic](./resources/boolean.jpg)
 
 ## Transistors
+![Transistors](./resources/transistors.jpg)
 
-### CMOS
-
-![CMOS](./resources/cmos.jpg)
-
-### Logic Level Noise Margins
-
-![Logic Level Noise Margins](./resources/logic_level_noise_margins.jpg)
-
-## Basic Digital Circuits
-
-### Logic Gates
-
+## Digital Circuits
 ![Logic Gates](./resources/logic_gates.jpg)
-
-### Latches
-
 ![Latches](./resources/latches.jpg)
-
-### Flip-Flops
-
 ![Flip-Flops](./resources/flipflops.jpg)
+![Timing constraints](./resources/timing_constraints.jpg)
+![Digital Circuits](./resources/digital_circuits.jpg)
+![Multiplexers Demultiplexers](./resources/mux_demux.jpg)
+![Encoders Decoders](./resources/enc_dec.jpg)
+![FSM](./resources/fsm.jpg)
 
-### Multiplexers and Demultiplexers
+## Verilog
+![Verilog](./resources/verilog.jpg)
+![Functional Verification](./resources/functional_verification.jpg)
 
-![Multiplexers and Demultiplexers](./resources/mux_demux.jpg)
+## Architecture
+![Single Cycle Microarchitecture](./resources/single_cycle.jpg)
+![Piplined Architecture](./resources/pipeline_architecture.jpg)
+![Pipelines](./resources/pipelines.jpg)
 
-### Encoders and Decoders
+## MIPS
+![MIPS](./resources/mips.jpg)
+![Registers](./resources/registers.jpg)
+![Assembly](./resources/assembly.jpg)
 
-![Encoders and Decoders](./resources/enc_dec.jpg)
+## Memories
+![Memories](./resources/memories.jpg)
