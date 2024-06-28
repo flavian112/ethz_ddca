@@ -1,41 +1,14 @@
-# Digital Design
+# Digital Design and Computer Architecture Summary
 
-## Managing Complexity
-![Complexity](./resources/complexity.jpg)
-
-## Binary Numbers
-![Binary Numbers](./resources/binary_numbers.jpg)
-![Floating Point](./resources/floating_point.jpg)
-
-## Boolean Logic
-![Boolean Logic](./resources/boolean.jpg)
-
-## Transistors
-![Transistors](./resources/transistors.jpg)
-
-## Digital Circuits
-![Logic Gates](./resources/logic_gates.jpg)
-![Latches](./resources/latches.jpg)
-![Flip-Flops](./resources/flipflops.jpg)
-![Timing constraints](./resources/timing_constraints.jpg)
-![Digital Circuits](./resources/digital_circuits.jpg)
-![Multiplexers Demultiplexers](./resources/mux_demux.jpg)
-![Encoders Decoders](./resources/enc_dec.jpg)
-![FSM](./resources/fsm.jpg)
-
-## Verilog
-![Verilog](./resources/verilog.jpg)
-![Functional Verification](./resources/functional_verification.jpg)
-
-## Architecture
-![Single Cycle Microarchitecture](./resources/single_cycle.jpg)
-![Piplined Architecture](./resources/pipeline_architecture.jpg)
-![Pipelines](./resources/pipelines.jpg)
-
-## MIPS
-![MIPS](./resources/mips.jpg)
-![Registers](./resources/registers.jpg)
-![Assembly](./resources/assembly.jpg)
-
-## Memories
-![Memories](./resources/memories.jpg)
+![DDCA Summary Page 00](./resources/ddca_summary_page_00.jpg)
+![DDCA Summary Page 01](./resources/ddca_summary_page_01.jpg)
+![DDCA Summary Page 02](./resources/ddca_summary_page_02.jpg)
+![DDCA Summary Page 03](./resources/ddca_summary_page_03.jpg)
+![DDCA Summary Page 04](./resources/ddca_summary_page_04.jpg)
+![DDCA Summary Page 05](./resources/ddca_summary_page_05.jpg)
+![DDCA Summary Page 06](./resources/ddca_summary_page_06.jpg)
+![DDCA Summary Page 07](./resources/ddca_summary_page_07.jpg)
+![DDCA Summary Page 08](./resources/ddca_summary_page_08.jpg)
+![DDCA Summary Page 09](./resources/ddca_summary_page_09.jpg)
+![DDCA Summary Page 10](./resources/ddca_summary_page_10.jpg)
+![DDCA Summary Page 11](./resources/ddca_summary_page_11.jpg)
