@@ -10,7 +10,7 @@ This Repository contains a summary of the DDCA course.
 
 ## Summary
 
-- [Summary](summary/ddca_summary.md)
+- [DDCA](summary/ddca_summary.md)
 
 ## Verilog Examples
 
