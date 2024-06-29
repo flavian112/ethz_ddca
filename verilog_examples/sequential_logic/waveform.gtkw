@@ -1,0 +1,25 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Sat Jun 29 11:05:09 2024
+[*]
+[dumpfile] "/Users/flavian/Documents/hobbies/electronics/projects/ethz_ddca/verilog_examples/sequential_logic/build/waveform.vcd"
+[dumpfile_mtime] "Sat Jun 29 11:04:27 2024"
+[dumpfile_size] 722
+[savefile] "/Users/flavian/Documents/hobbies/electronics/projects/ethz_ddca/verilog_examples/sequential_logic/waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] 177 -1
+*0.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[sst_width] 253
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 158
+@28
+testbench.clk
+testbench.rstn
+testbench.d
+@29
+testbench.q
+[pattern_trace] 1
+[pattern_trace] 0
