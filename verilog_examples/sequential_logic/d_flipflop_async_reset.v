@@ -1,7 +1,7 @@
 // N bit wide D Flip-Flop (Register) with
-// synchronous, active-low reset.
+// asynchronous, active-low reset.
 
-module d_flipflop #(
+module d_flipflop_async_reset #(
     parameter N = 1
 )(
     input              clk,
@@ -10,7 +10,7 @@ module d_flipflop #(
     output reg [N-1:0] q
 );
 
-    always @ (posedge clk) begin
+    always @ (posedge clk negedge rstn) begin
         if (!rstn) q <= 0;
         else       q <= d;
     end
