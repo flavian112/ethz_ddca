@@ -1,6 +1,6 @@
 # Digital Design and Computer Architecture Summary
 
-![DDCA Summary Page 00](./resources/ddca_summary_page_00.jpg)
+
 ![DDCA Summary Page 01](./resources/ddca_summary_page_01.jpg)
 ![DDCA Summary Page 02](./resources/ddca_summary_page_02.jpg)
 ![DDCA Summary Page 03](./resources/ddca_summary_page_03.jpg)
@@ -12,3 +12,4 @@
 ![DDCA Summary Page 09](./resources/ddca_summary_page_09.jpg)
 ![DDCA Summary Page 10](./resources/ddca_summary_page_10.jpg)
 ![DDCA Summary Page 11](./resources/ddca_summary_page_11.jpg)
+![DDCA Summary Page 00](./resources/ddca_summary_page_12.jpg)
