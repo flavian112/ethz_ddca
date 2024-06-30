@@ -17,3 +17,7 @@ This Repository contains a summary of the DDCA course.
 Some verilog examples are located in the directory `verilog_examples`. To run an example, change directory to the corresponding example and run `make all` to compile and execute the testbench. Then run `make wave` to view the generated waveform.
 
 Make sure to have [Icarus Verilog (iverilog, vvp)](https://steveicarus.github.io/iverilog/) and [GTKWave](https://gtkwave.sourceforge.net) installed.
+
+## Labs
+
+Some labs are located in the directory `labs`. To run, proceed the same way as for the verilog examples.
