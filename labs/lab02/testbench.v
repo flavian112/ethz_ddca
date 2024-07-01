@@ -15,8 +15,8 @@ initial begin
 end
 
 
-reg ha_a;
-reg ha_b;
+reg  ha_a;
+reg  ha_b;
 wire ha_s;
 wire ha_c_out;
 
@@ -27,9 +27,9 @@ half_adder ha (
     .c_out(ha_c_out)
 );
 
-reg fa_a;
-reg fa_b;
-reg fa_c_in;
+reg  fa_a;
+reg  fa_b;
+reg  fa_c_in;
 wire fa_s;
 wire fa_c_out;
 
@@ -42,11 +42,11 @@ full_adder fa (
 );
 
 parameter rca_n = 4;
-reg [rca_n-1:0] rca_a;
-reg [rca_n-1:0] rca_b;
-reg rca_c_in;
-wire [rca_n-1:0] rca_s;
-wire rca_c_out;
+reg [rca_n - 1:0]  rca_a;
+reg [rca_n - 1:0]  rca_b;
+reg                rca_c_in;
+wire [rca_n - 1:0] rca_s;
+wire               rca_c_out;
 
 ripple_carry_adder #(.N(rca_n)) rca (
     .a(rca_a),
@@ -56,8 +56,27 @@ ripple_carry_adder #(.N(rca_n)) rca (
     .c_out(rca_c_out)
 );
 
-integer i;
+parameter dec_n = 2;
+reg [dec_n - 1:0]         dec_a;
+wire [(1 << dec_n) - 1:0] dec_y;
 
+decoder #(.N(dec_n)) dec (
+    .a(dec_a),
+    .y(dec_y)
+);
+
+parameter mux_n = 1;
+reg [(1 << mux_n) - 1:0] mux_a;
+reg [mux_n - 1:0]        mux_s;
+wire                     mux_y;
+
+multiplexer #(.N(mux_n)) mux (
+    .a(mux_a),
+    .s(mux_s),
+    .y(mux_y)
+);
+
+integer i;
 
 initial begin
     $display();
@@ -96,7 +115,30 @@ initial begin
         #10;
         $display("%H %H %b    | %b     %H", rca_a, rca_b, rca_c_in, rca_c_out, rca_s);
     end
-     $display();
+    $display();
+
+    $display();
+    $display("Decoder (2:4):");
+    $display("a  | y");
+    $display("---------");
+    for (i = 0; i < (1 << dec_n); i = i + 1) begin
+        dec_a = i;
+        #10;
+        $display("%B | %B", dec_a, dec_y);
+    end
+    $display();
+
+    $display();
+    $display("Multiplexer (2:1):");
+    $display("a  s | y");
+    $display("---------");
+    for (i = 0; i < (1 << ((1 << mux_n) + mux_n)); i = i + 1) begin
+        mux_a = i[(1 << mux_n) + mux_n - 1:mux_n];
+        mux_s = i[mux_n - 1:0];
+        #10;
+        $display("%B %B | %B", mux_a, mux_s, mux_y);
+    end
+    $display();
 
 
     $finish;
