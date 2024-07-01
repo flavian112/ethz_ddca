@@ -1,3 +1,5 @@
+// N to 2^N Decoder
+
 module decoder #(
     parameter N = 2
 )(

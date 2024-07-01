@@ -1,3 +1,4 @@
+// N^2 to 1 Multiplexer (N Bit Select Line)
 
 module multiplexer #(
     parameter N = 2
